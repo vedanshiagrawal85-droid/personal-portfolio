@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd5b5" />
+      <stop offset="100%" stop-color="#f6be98" />
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="80" cy="80" r="80" fill="url(#avatarGrad)" />
+  
+  <!-- Back Hair (Long hair falling to shoulders) -->
+  <path d="M40 70 C36 105, 42 140, 50 155 C55 130, 54 90, 54 70 Z" fill="url(#hairGrad)" />
+  <path d="M120 70 C124 105, 118 140, 110 155 C105 130, 106 90, 106 70 Z" fill="url(#hairGrad)" />
+
+  <!-- Torso / Outfit -->
+  <path d="M28 160 C28 122, 52 110, 80 110 C108 110, 132 122, 132 160 Z" fill="#0f172a" />
+  
+  <!-- Inner shirt & collar -->
+  <path d="M68 110 L80 126 L92 110 Z" fill="#38bdf8" />
+  <polygon points="80,128 66,110 94,110" fill="#f8fafc" />
+
+  <!-- Neck -->
+  <rect x="71" y="93" width="18" height="20" rx="4" fill="url(#skinGrad)" />
+
+  <!-- Head -->
+  <ellipse cx="80" cy="68" rx="27" ry="32" fill="url(#skinGrad)" />
+
+  <!-- Front Hair Style -->
+  <path d="M50 64 C48 38, 62 26, 80 26 C98 26, 112 38, 110 64 C104 46, 96 36, 80 36 C64 36, 56 46, 50 64 Z" fill="url(#hairGrad)" />
+  <path d="M52 50 C60 40, 72 35, 80 35 C70 42, 60 52, 53 66 Z" fill="#312e81" />
+  <path d="M108 50 C100 40, 88 35, 80 35 C90 42, 100 52, 107 66 Z" fill="#312e81" />
+
+  <!-- Eyeglasses -->
+  <rect x="58" y="60" width="18" height="13" rx="4" fill="none" stroke="#0f172a" stroke-width="2.5" />
+  <rect x="84" y="60" width="18" height="13" rx="4" fill="none" stroke="#0f172a" stroke-width="2.5" />
+  <line x1="76" y1="66" x2="84" y2="66" stroke="#0f172a" stroke-width="2.5" />
+
+  <!-- Eyes behind glasses -->
+  <circle cx="67" cy="66" r="2.5" fill="#0f172a" />
+  <circle cx="93" cy="66" r="2.5" fill="#0f172a" />
+  <circle cx="68" cy="65" r="0.8" fill="#ffffff" />
+  <circle cx="94" cy="65" r="0.8" fill="#ffffff" />
+
+  <!-- Eyebrows -->
+  <path d="M59 56 Q67 54 74 57" fill="none" stroke="#1e1b4b" stroke-width="1.8" stroke-linecap="round" />
+  <path d="M86 57 Q93 54 101 56" fill="none" stroke="#1e1b4b" stroke-width="1.8" stroke-linecap="round" />
+
+  <!-- Gentle Smile -->
+  <path d="M73 84 Q80 91 87 84" fill="none" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Subtle Blush -->
+  <ellipse cx="61" cy="76" rx="4" ry="2" fill="#fda4af" opacity="0.6" />
+  <ellipse cx="99" cy="76" rx="4" ry="2" fill="#fda4af" opacity="0.6" />
+</svg>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vedanshi Agrawal - Portfolio</title>
+  <meta name="description" content="Personal portfolio of Vedanshi Agrawal, a Computer Science student and software developer.">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function () {
+      try {
+        var savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">Vedanshi Agrawal</div>
+    <div class="nav-controls">
+      <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
+      <button id="menu-btn" aria-label="Toggle menu">☰</button>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#chatbot">Chatbot</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <img src="images/avatar.svg" alt="Vedanshi Agrawal" class="profile-photo" id="profile-photo">
+      <h1>Vedanshi Agrawal</h1>
+      <p class="tagline">Building Innovative Solutions Through Code, Creativity, and Continuous Learning.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a second-year Computer Science and Engineering student at JECRC University, Jaipur, passionate about coding, problem-solving, and software development. I love building practical digital solutions, exploring modern web frameworks, and turning creative ideas into reality.</p>
+      <div class="education">
+        <h3>Education</h3>
+        <p><strong>B.Tech in Computer Science and Engineering</strong></p>
+        <p>JECRC University, Jaipur · Second Year (Expected Graduation: 2029) · CGPA: 8.0</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>C++</li>
+        <li>C</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Cursor AI</li>
+        <li>Responsive Web Design</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <input type="text" id="search" placeholder="Search projects (e.g., Python, Quiz, AI)...">
+      <div id="project-list"></div>
+    </section>
+
+    <section id="chatbot">
+      <h2>AI Assistant</h2>
+      <p class="chatbot-intro">Have questions about Vedanshi's background, education, or projects? Ask the assistant below!</p>
+      <div class="quick-prompts">
+        <button class="quick-btn" type="button" data-prompt="What are Vedanshi's key skills?">Skills</button>
+        <button class="quick-btn" type="button" data-prompt="Tell me about Vedanshi's education and college.">Education</button>
+        <button class="quick-btn" type="button" data-prompt="What projects has Vedanshi built?">Projects</button>
+        <button class="quick-btn" type="button" data-prompt="How can I contact Vedanshi?">Contact Info</button>
+      </div>
+      <div id="chat-messages"></div>
+      <div class="chat-input-wrapper">
+        <input type="text" id="chat-input" placeholder="Ask me anything about Vedanshi...">
+        <button id="chat-send">Send</button>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you'd like to collaborate, discuss project opportunities, or get in touch, feel free to reach out:</p>
+      <div class="contact-details">
+        <div class="contact-item">
+          <span class="contact-label">Email:</span>
+          <a href="mailto:vedanshiagrawal85@gmail.com">vedanshiagrawal85@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">GitHub:</span>
+          <a href="https://github.com/vedanshiagrawal85-droid" target="_blank" rel="noopener noreferrer">github.com/vedanshiagrawal85-droid</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2026</span> Vedanshi Agrawal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
