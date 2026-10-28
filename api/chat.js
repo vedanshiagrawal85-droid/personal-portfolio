@@ -33,9 +33,9 @@ module.exports = async function handler(req, res) {
     } else if (message.includes('college') || message.includes('university') || message.includes('study') || message.includes('degree') || message.includes('education') || message.includes('cgpa')) {
       reply = "Vedanshi is pursuing B.Tech in CSE at JECRC University, Jaipur (currently in second year, expected 2029) with a strong academic CGPA of 8.0.";
     } else if (message.includes('contact') || message.includes('email') || message.includes('mail') || message.includes('hire') || message.includes('reach')) {
-      reply = "You can reach Vedanshi directly via email at vedanshiagrawal85@gmail.com, or check out her code on GitHub at https://github.com/vedanshiagrawal85-droid.";
+      reply = "You can reach Vedanshi directly via email at vedanshiagrawal85@gmail.com, or check out her code on GitHub at https://github.com/vedanshiagrawal85-droid/personal-portfolio.";
     } else if (message.includes('github') || message.includes('repo')) {
-      reply = "Vedanshi's GitHub profile and portfolio repository can be found at: https://github.com/vedanshiagrawal85-droid";
+      reply = "Vedanshi's GitHub profile and portfolio repository can be found at: https://github.com/vedanshiagrawal85-droid/personal-portfolio";
     }
 
     return res.status(200).json({ reply });
