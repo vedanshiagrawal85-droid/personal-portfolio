@@ -8,35 +8,35 @@ const projects = [
     title: 'Python Programs Collection',
     description: 'A collection of core Python programs covering factorial calculation, Fibonacci sequence, and structure-to-dictionary conversion.',
     tech: ['Python', 'Problem Solving'],
-    github: 'https://github.com/vedanshiagrawal85-droid/personal-portfolio',
+    github: 'https://github.com/vedanshiagrawal85-droid/python-programs-collection',
     live: ''
   },
   {
     title: 'Messy Python Code Improvement',
     description: 'Refactored messy Python scripts with AI assistance, focusing on code readability, modular structure, and optimal logic.',
     tech: ['Python', 'AI'],
-    github: 'https://github.com/vedanshiagrawal85-droid/personal-portfolio',
+    github: 'https://github.com/vedanshiagrawal85-droid/messy-python-code-improvement',
     live: ''
   },
   {
     title: 'Bug Fixing Using Cursor AI',
     description: 'Debugged and corrected logic flaws and runtime issues using Cursor AI as an intelligent assistant during development.',
     tech: ['Python', 'Cursor AI', 'Debugging'],
-    github: 'https://github.com/vedanshiagrawal85-droid/personal-portfolio',
+    github: 'https://github.com/vedanshiagrawal85-droid/bug-fixing-cursor-ai',
     live: ''
   },
   {
     title: 'Interactive Quiz Application',
     description: 'Interactive quiz application built with HTML, CSS, and JavaScript featuring dynamic questions and score tracking.',
     tech: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/vedanshiagrawal85-droid/personal-portfolio',
+    github: 'https://github.com/vedanshiagrawal85-droid/interactive-quiz-app',
     live: ''
   },
   {
     title: 'Book Reading List Application',
     description: 'Web application designed for tracking book reading progress, wishlist management, and reading goals.',
     tech: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/vedanshiagrawal85-droid/personal-portfolio',
+    github: 'https://github.com/vedanshiagrawal85-droid/book-reading-list',
     live: ''
   }
 ];
